@@ -1,108 +1,109 @@
-Moving from Complexity to Clarity in Supply Chain
-Description:
-This project focuses on analyzing and optimizing supply chain operations using real-world data from a logistics company, Just In Time. The primary goal was to uncover inefficiencies across shipment, inventory, and order fulfillment processes. Through data-driven insights and interactive Tableau dashboards, the project provides business stakeholders with a clear understanding of operational bottlenecks and strategic recommendations for improvement.
+# 📦 Supply Chain Analysis
 
-Tools & Techniques:
+## 📘 Project Description
 
-Python: Data cleaning, preprocessing, and exploratory data analysis
+This project focuses on analyzing and optimizing supply chain operations using real-world data from a logistics company, **Just In Time**. The goal was to identify inefficiencies in shipment, inventory, and order fulfillment processes. By leveraging Python and Tableau, I developed interactive dashboards and analytical insights to inform business stakeholders and recommend strategic improvements.
 
-Tableau: Interactive dashboard creation for business reporting
+---
 
-Methodology: Descriptive and exploratory analytics
+## 🧰 Tools & Techniques
 
-Project Objectives:
-Identify inefficiencies in inventory and shipment management
+- **Python**: Data preprocessing, cleaning, and exploratory analysis  
+- **Tableau**: Dashboard design and visualization  
+- **Methodology**: Descriptive & exploratory analytics
 
-Analyze profit, cost, supply, and demand patterns
+---
 
-Evaluate warehouse inventory performance
+## 🎯 Project Objectives
 
-Detect causes of shipment delays
+- Analyze shipment and inventory inefficiencies  
+- Evaluate profit and cost structures  
+- Identify overstocked and understocked products  
+- Understand shipping delays and order fulfillment challenges  
+- Deliver actionable business insights via dashboards
 
-Propose data-backed recommendations for operational improvements
+---
 
-Key Dashboards & Business Insights:
-📌 Business Performance
+## 📊 Key Dashboards & Business Insights
 
-Overview of total profit, product cost, best-selling and most profitable products
+### 🧾 Business Performance
 
-Profitability by product department and product category
+- Total profit & product costs  
+- Most profitable products and departments  
+- Profit margins analysis
 
-📦 Inventory Management
+### 📦 Inventory Management
 
-Inventory by warehouse and department
+- Inventory by warehouse & product department  
+- Supply vs. demand analysis  
+- Inventory storage costs  
+- Most overstocked & understocked products
 
-Supply vs. demand comparisons
+### 🚚 Shipment Investigation
 
-Identification of overstocked and understocked items
+- % of delayed orders  
+- Delay evolution over time  
+- Delay analysis by region  
+- Most delayed products
 
-Analysis of inventory storage costs
+### ✅ Order Fulfillment
 
-🚚 Shipment Investigation
+- Average warehouse fulfillment by product category  
+- Fulfillment performance across regions
 
-Percentage of delayed shipments
+---
 
-Delay trends over time
+## 🧾 Data Overview
 
-Shipment delays by location
+The dataset includes three main tables:
 
-Products most frequently delayed
+- `order_and_shipment`: Order details, shipping modes, delays  
+- `inventory`: Inventory by product & warehouse, storage costs  
+- `fulfillment`: Order fulfillment metrics
 
-✅ Order Fulfillment
+### Key Entities
 
-Fulfillment rates by product category
+- **Customer**: ID and location data  
+- **Order**: Date, product, quantity, and value  
+- **Shipment**: Shipment mode and delay tracking  
+- **Warehouse**: Inventory volume and cost by product
 
-Warehouse performance in meeting order demand
+---
 
-Data Overview:
-The dataset consists of three main tables:
+## 🔍 Key Insights
 
-order_and_shipment: Order details, product quantities, shipment modes, and dates
+### 💰 Profit & Cost
 
-inventory: Monthly inventory levels, warehouse location, storage costs
+- Identified most profitable departments and products  
+- Highlighted high-margin goods  
+- Pinpointed areas with excessive inventory storage costs
 
-fulfillment: Order fulfillment performance by product and category
+### 📉 Inventory Analysis
 
-Entity Highlights:
+- Supply vs. demand mismatch identified  
+- Overstocked and understocked product categories found
 
-Customer: Identification and address details
+### 🚛 Shipment Delays
 
-Product: Name, department, and category
+- Delay rates and their evolution tracked  
+- Key products and regions with frequent delays highlighted
 
-Order/Shipment: Dates, values, shipping mode, and delay analysis
+### 📦 Order Fulfillment
 
-Warehouse: Inventory storage, supply-demand balance, and cost efficiency
+- Performance of warehouses in fulfilling orders
 
-Key Insights:
-1. Profit & Cost Analysis
+---
 
-Identified most profitable products and departments
+## ✅ Recommendations
 
-Highlighted goods with the highest profit margins and highest storage costs
+- **Optimize Product Inventory**:  
+  Adjust stock levels using demand forecasting to reduce excess inventory and prevent stockouts during peak seasons.
 
-2. Inventory Efficiency
+- **Reorganize Inventory Distribution**:  
+  Reallocate stock across warehouses to align with regional demand and reduce shipment delays.
 
-Found mismatches in supply vs. demand
+- **Targeted Marketing Strategies**:  
+  Focus promotional efforts on high-margin products and offer seasonal discounts to drive sales and engagement.
 
-Identified overstocked and understocked product categories impacting profitability
-
-3. Shipment Delays
-
-Analyzed delay trends, key problem areas, and product categories affected by frequent delays
-
-4. Order Fulfillment
-
-Evaluated average warehouse performance in fulfilling orders by product type
-
-Recommendations:
-Optimize Product Inventory:
-Balance stock levels based on demand forecasts, especially for high-margin products, to reduce excess costs and prevent stockouts.
-
-Reorganize Inventory Distribution:
-Address understocking in high-demand departments (e.g., Fan Shop) and realign inventory across warehouses to reduce shipment delays.
-
-Targeted Marketing Strategies:
-Promote high-margin products, run strategic campaigns during peak seasons, and offer discounts to improve sales and inventory turnover.
-
-Monitor & Reduce Shipment Delays:
-Conduct further root cause analysis of shipping delays and resolve process bottlenecks to enhance customer satisfaction and delivery efficiency.
+- **Monitor Shipment Delays**:  
+  Conduct root cause analysis of frequent shipping delays and address operational bottlenecks to improve fulfillment timelines and customer satisfaction.
